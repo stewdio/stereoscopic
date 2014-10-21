@@ -107,7 +107,6 @@ document.addEventListener( 'DOMContentLoaded', function(){
 		if( e < elementsSelectedMax ){
 
 			elementsSelected.push( element )
-			//console.log( e, element )
 		}
 	}
 
@@ -135,7 +134,7 @@ document.addEventListener( 'DOMContentLoaded', function(){
 			righty = element.querySelector( '.righty' ),
 			translation
 
-			t += 0.001
+			t += 0.002
 			element.setAttribute( 'theta', t )
 
 
